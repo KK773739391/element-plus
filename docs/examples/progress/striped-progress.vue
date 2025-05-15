@@ -35,7 +35,7 @@
 import { computed, ref } from 'vue'
 import { Minus, Plus } from '@element-plus/icons-vue'
 
-const percentage = ref<number>(70)
+const percentage = ref<number>(90)
 const duration = computed(() => Math.floor(percentage.value / 10))
 
 const increase = () => {
